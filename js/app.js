@@ -117,7 +117,7 @@ google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY
 
  	var mapOptions = {
  		zoom: 12,
- 		zoomControl: false,
+ 		zoomControl: true,
  		scaleControl: true,
  		scrollwheel: false,
  		draggable: false,
