@@ -291,7 +291,7 @@ google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY
  		]
  	};
 
-    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     map.setCenterWithOffset(myLangLat, 0, -55);
 
 }
