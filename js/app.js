@@ -92,7 +92,7 @@ $(window).resize(function () {
 
 //Set langitude and latidute for your location
 var lat = 27.20594;
-var lng = -77.952632;
+var lng = 77.952632;
 var myLangLat = new google.maps.LatLng(lat, lng);
 
 google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY) {
@@ -292,11 +292,11 @@ google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY
  	};
 
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    map.setCenterWithOffset(myLangLat, 0, -55);
+                                                                                                                                                                                                                                                                                                                            // map.setCenterWithOffset(myLangLat, 0, -55);
 
 }
 google.maps.event.addDomListener(window, 'load', initializeMap);
 
-google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenterWithOffset(myLangLat, 0, -55);
-});
+// google.maps.event.addDomListener(window, 'resize', function() {
+//     map.setCenterWithOffset(myLangLat, 0, -55);
+// });
