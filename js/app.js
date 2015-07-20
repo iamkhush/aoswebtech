@@ -94,6 +94,7 @@ $(window).resize(function () {
 var lat = 27.20594;
 var lng = -77.952632;
 var myLangLat = new google.maps.LatLng(lat, lng);
+var map;
 
 google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY) {
     var map = this;
@@ -291,7 +292,7 @@ google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY
  		]
  	};
 
-    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     map.setCenterWithOffset(myLangLat, 0, -55);
 
 }
