@@ -4,9 +4,9 @@ jQuery(document).ready(function($){
 		selector: ".cd-testimonials > li",
 		animation: "slide",
 		controlNav: false,
-		slideshow: true,
+		slideshow: false,
 		smoothHeight: true,
-		itemWidth: 666,
+		itemWidth: 712,
 		itemMargin: 8,
 		start: function(){
 			$('.cd-testimonials').children('li').css({

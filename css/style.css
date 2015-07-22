@@ -172,6 +172,10 @@ a:focus{
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.76);
+  opacity: 0.8;
+  padding-bottom: 30px;
 }
 
 /***
@@ -544,7 +548,7 @@ Main components
   }
   .cd-author .cd-author-info li:last-child {
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 1.4rem;
   }
 }
 
