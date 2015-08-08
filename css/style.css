@@ -804,3 +804,8 @@ Main components
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+
+.portfolio-images {
+  height: 257px;
+}
